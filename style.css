@@ -285,7 +285,6 @@ img {
 }
 
 .mu-top-slider .mu-top-slider-single:after {
-  background-color: rgba(0, 0, 0, 0.6);
   bottom: 0;
   content: "";
   left: 0;
@@ -302,7 +301,7 @@ img {
 .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
   position: absolute;
   left: 15%;
-  top: 30%;
+  top: 75%;
   right: 15%;
   text-align: center;
   z-index: 99;
@@ -1475,7 +1474,7 @@ RESERVATION SECTION
   .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
     position: absolute;
     left: 5%;
-    top: 15%;
+    top: 70%;
     right: 5%;
   }
 
@@ -1809,4 +1808,9 @@ RESERVATION SECTION
 .logoimg{
   height: 180px;
   width: 180px;
+}
+
+@media (max-width: 450px) {
+  .mu-main-navbar .navbar-header .navbar-brand img {
+    margin-left: 30%;
 }
