@@ -301,7 +301,7 @@ img {
 .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
   position: absolute;
   left: 15%;
-  top: 75%;
+  top: 62%;
   right: 15%;
   text-align: center;
   z-index: 99;
@@ -1474,7 +1474,7 @@ RESERVATION SECTION
   .mu-top-slider .mu-top-slider-single .mu-top-slider-content {
     position: absolute;
     left: 5%;
-    top: 70%;
+    top: 53%;
     right: 5%;
   }
 
@@ -1813,4 +1813,11 @@ RESERVATION SECTION
 @media (max-width: 450px) {
   .mu-main-navbar .navbar-header .navbar-brand img {
     margin-left: 30%;
+  }
+}
+@media (min-width: 500px) {
+  .slick-track{
+    width: 50%;
+    margin: 0 auto; 
+  }
 }
