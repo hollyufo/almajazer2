@@ -6,6 +6,7 @@
 }
 .middle1 {
     text-align: center;
+    padding-top: 45px;
 }
 .btn1 {
     display: inline-block;
@@ -54,4 +55,7 @@
         top: -10%;
         left: -10%;
     }
+}
+.footer-links{
+    color: #fff;
 }
