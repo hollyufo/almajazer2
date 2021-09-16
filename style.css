@@ -420,6 +420,7 @@ img {
 }
 
 .mu-about-us-right {
+  font-size: 20px;
   display: inline;
   float: left;
   margin-top: 20px;
@@ -1822,4 +1823,7 @@ RESERVATION SECTION
 }
 .footer-left {
   margin: 20px;
+}
+.pad{
+  margin-left: 25px;
 }

@@ -8,12 +8,11 @@
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["name"]));
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
-        $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $cont_subject = trim($_POST["subject"]);
         $message = trim($_POST["message"]);
 
         // Check that data was sent to the mailer.
-        if ( empty($name) OR empty($message) OR empty($cont_subject) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ( empty($name) OR empty($message) OR empty($cont_subject)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "Oops! There was a problem with your submission. Please complete the form and try again.";
@@ -22,7 +21,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "csealtaf@gmail.com";
+        $recipient = "chaibi1imran@gmail.com";
 
         // Set the email subject.
         $subject = "New contact from $name";
