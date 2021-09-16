@@ -410,7 +410,7 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
+  padding: 53px 0;
 }
 
 .mu-about-us-area {
@@ -564,7 +564,6 @@ img {
   display: inline;
   float: left;
   width: 100%;
-  padding: 100px 0;
 }
 
 .mu-restaurant-menu-area {
@@ -1812,7 +1811,7 @@ RESERVATION SECTION
 
 @media (max-width: 450px) {
   .mu-main-navbar .navbar-header .navbar-brand img {
-    margin-left: 30%;
+    margin-left: auto;
   }
 }
 @media (min-width: 500px) {
