@@ -1,11 +1,4 @@
 
-*,
-*:after,
-*:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
 
 .clearfix:before,
 .clearfix:after {
@@ -17,14 +10,6 @@
 	clear: both;
 }
 
-body {
-	font-family: sans-serif;
-	background: #f6f9fa;
-}
-
-h1 {
-	text-align: center;
-}
 
 a {
   text-decoration: none;
@@ -45,7 +30,7 @@ input, section {
   display: none;
 }
 
-label {
+.label1 {
   font-weight: 700;
   font-size: 18px;
   display: block;
